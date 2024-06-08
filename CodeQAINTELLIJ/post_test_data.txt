@@ -1,0 +1,106 @@
+# Test Case 1 - Valid Post
+1
+Valid Title One
+This is a valid body with more than 300 characters for the first test case. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula ligula nec justo vulputate, ut fringilla libero volutpat. Sed auctor, justo id scelerisque tristique, ex arcu egestas nulla, at vehicula nisi purus et quam. Sed volutpat mollis eros, vel finibus neque aliquet nec. Curabitur non venenatis odio.
+tag1,tag2
+Difficult
+Immediately Needed
+true
+
+2
+Valid Title Two
+This is another valid body with more than 300 characters for the second test case. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula ligula nec justo vulputate, ut fringilla libero volutpat. Sed auctor, justo id scelerisque tristique, ex arcu egestas nulla, at vehicula nisi purus et quam. Sed volutpat mollis eros, vel finibus neque aliquet nec. Curabitur non venenatis odio.
+tag3,tag4
+Easy
+Ordinary
+true
+
+# Test Case 2 - Invalid Post (Title too short and Invalid type/emergency combination)
+3
+Inv
+This is a valid body with more than 300 characters for the third test case. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula ligula nec justo vulputate, ut fringilla libero volutpat. Sed auctor, justo id scelerisque tristique, ex arcu egestas nulla, at vehicula nisi purus et quam. Sed volutpat mollis eros, vel finibus neque aliquet nec. Curabitur non venenatis odio.
+tag5,tag6
+Very Difficult
+Highly Needed
+false
+
+4
+Valid Title Four
+This is another valid body with more than 300 characters for the fourth test case. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula ligula nec justo vulputate, ut fringilla libero volutpat. Sed auctor, justo id scelerisque tristique, ex arcu egestas nulla, at vehicula nisi purus et quam. Sed volutpat mollis eros, vel finibus neque aliquet nec. Curabitur non venenatis odio.
+tag7,tag8
+Easy
+Highly Needed
+false
+
+# Test Case 3 - Invalid Post (Body too short and Invalid tags)
+5
+Valid Title Five
+Short body for the fifth test case.
+tag9,tag10
+Difficult
+Immediately Needed
+false
+
+6
+Valid Title Six
+This is another valid body with more than 300 characters for the sixth test case. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula ligula nec justo vulputate, ut fringilla libero volutpat. Sed auctor, justo id scelerisque tristique, ex arcu egestas nulla, at vehicula nisi purus et quam. Sed volutpat mollis eros, vel finibus neque aliquet nec. Curabitur non venenatis odio.
+tag1,tag2,tag3,tag4,tag5,tag6
+Difficult
+Immediately Needed
+false
+
+# Test Case 4 - Invalid Post (Title with Digits)
+7
+Inva1id Title!
+This is a valid body with more than 300 characters for the seventh test case. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula ligula nec justo vulputate, ut fringilla libero volutpat. Sed auctor, justo id scelerisque tristique, ex arcu egestas nulla, at vehicula nisi purus et quam. Sed volutpat mollis eros, vel finibus neque aliquet nec. Curabitur non venenatis odio.
+tag11,tag12
+Difficult
+Immediately Needed
+false
+
+8
+Inv123123d Title!
+This is a valid body with more than 300 characters for the seventh test case. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula ligula nec justo vulputate, ut fringilla libero volutpat. Sed auctor, justo id scelerisque tristique, ex arcu egestas nulla, at vehicula nisi purus et quam. Sed volutpat mollis eros, vel finibus neque aliquet nec. Curabitur non venenatis odio.
+tag13,tag14
+Difficult
+Immediately Needed
+false
+
+# Test Case 5 - Invalid Post (Tags with Uppercase Characters)
+9
+Valid Title Nine
+This is a valid body with more than 300 characters for the ninth test case. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula ligula nec justo vulputate, ut fringilla libero volutpat. Sed auctor, justo id scelerisque tristique, ex arcu egestas nulla, at vehicula nisi purus et quam. Sed volutpat mollis eros, vel finibus neque aliquet nec. Curabitur non venenatis odio.
+Tag15,tag16
+Difficult
+Immediately Needed
+false
+
+10
+Valid Title Ten
+This is another valid body with more than 300 characters for the tenth test case. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula ligula nec justo vulputate, ut fringilla libero volutpat. Sed auctor, justo id scelerisque tristique, ex arcu egestas nulla, at vehicula nisi purus et quam. Sed volutpat mollis eros, vel finibus neque aliquet nec. Curabitur non venenatis odio.
+tag17,Tag18
+Easy
+Ordinary
+false
+
+
+# Test Case 6 - Invalid Post (Too Many Tags)
+11
+Valid Title Eleven
+This is a valid body with more than 300 characters for the eleventh test case. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula ligula nec justo vulputate, ut fringilla libero volutpat. Sed auctor, justo id scelerisque tristique, ex arcu egestas nulla, at vehicula nisi purus et quam. Sed volutpat mollis eros, vel finibus neque aliquet nec. Curabitur non venenatis odio.
+tag19,tag20,tag21,tag22,tag23,tag32,tag30
+Difficult
+Immediately Needed
+false
+
+12
+Valid Title Twelve
+This is another valid body with more than 300 characters for the twelfth test case. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula ligula nec justo vulputate, ut fringilla libero volutpat. Sed auctor, justo id scelerisque tristique, ex arcu egestas nulla, at vehicula nisi purus et quam. Sed volutpat mollis eros, vel finibus neque aliquet nec. Curabitur non venenatis odio.
+tag24,tag25,tag26,tag27,tag28,tag29
+Easy
+Ordinary
+false
+
+
+
+

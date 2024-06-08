@@ -1,0 +1,55 @@
+# Test Case 1 - Valid Comments
+This is a valid comment.
+true
+Another valid comment here.
+true
+
+# Test Case 2 - Invalid Comment - Too Few Words
+Too few words
+false
+Still too few
+false
+
+# Test Case 3 - Invalid Comment - First Character Not Uppercase
+this comment starts with a lowercase letter.
+false
+also this one
+false
+
+# Test Case 4 - Invalid Comment - Too Many Words
+This comment contains too many words and should not be valid for the given constraints.
+false
+Another comment that contains an excessive number of words and hence is invalid.
+false
+
+# Test Case 5 - Comments Exceed Limit for Easy Post
+First valid comment.
+Second valid comment.
+Third valid comment.
+Fourth comment, exceeding the limit.
+false
+
+First valid comment.
+This is a valid comment.
+ture
+
+# Test Case 6 - Comments Exceed Limit for Difficult Post
+First valid comment.
+Second valid comment.
+Third valid comment.
+Fourth comment, exceeding the limit.
+true
+
+First valid comment.
+Second valid comment.
+Third valid comment.
+Fourth comment, exceeding the limit.
+Fifth comment, exceeding the limit.
+true
+
+
+
+
+
+
+
